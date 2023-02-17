@@ -1,0 +1,28 @@
+/*Uses a single font style for the whole body*/
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #E9F1FA;
+}
+
+/*Modifies the style of the header with "header1" id*/
+#header1{
+    border:outset #00ABE4;
+    background-color:#00ABE4;
+    font-size: 50px;
+    color:#FFFFFF;
+    text-align: center;
+ }
+
+ /*Sets the size of the division that will contain all the information*/
+ #mainDiv{
+    height: auto;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+ }
+
+/*Displays the div with gridWrap class name as a grid*/
+.gridWrap{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
