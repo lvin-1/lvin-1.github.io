@@ -4,13 +4,19 @@ body{
     background-color: #E9F1FA;
 }
 
-/*Modifies the style of the header with "header1" id*/
+/*Modifies the style of the headers*/
 #header1{
     border:outset #00ABE4;
     background-color:#00ABE4;
     font-size: 50px;
     color:#FFFFFF;
     text-align: center;
+ }
+
+ #favHeader{
+    color: #00ABE4;
+    text-align: center;
+    font-size: 30px;
  }
 
  /*Sets the size of the division that will contain all the information*/
@@ -21,8 +27,20 @@ body{
     margin-right: auto;
  }
 
-/*Displays the div with gridWrap class name as a grid*/
+/*Displays the divs as a grid*/
 .gridWrap{
     display: grid;
     grid-template-columns: 2fr 1fr;
+}
+
+.gridWrap2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 50px;
+    text-align: center;
+}
+
+/*Adjusts the font size of the introduction*/
+#intro{
+    font-size: 25px;
 }
